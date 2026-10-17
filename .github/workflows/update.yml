@@ -1,0 +1,36 @@
+name: Mise à jour des données F1DB
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # tous les lundis 07:00 UTC (lendemain des Grands Prix)
+    - cron: '0 7 * * 3'   # rattrapage le mercredi si F1DB a publié tard
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Dernière release F1DB
+        run: |
+          mkdir -p _f1db
+          URL=$(curl -s https://api.github.com/repos/f1db/f1db/releases/latest | grep browser_download_url | grep 'f1db-json-single.zip' | cut -d '"' -f 4)
+          echo "F1DB : $URL"
+          curl -sL "$URL" -o _f1db/f1db.zip
+          unzip -o -q _f1db/f1db.zip -d _f1db
+      - name: Génération des fichiers de l'application
+        run: node scripts/build.mjs _f1db/f1db.json data
+      - name: Publication si changement
+        run: |
+          git config user.name "paddock3d-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && echo "aucun changement" && exit 0
+          git commit -m "Données F1DB $(date -u +%F)"
+          git push
