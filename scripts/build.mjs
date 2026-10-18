@@ -36,7 +36,10 @@ for (const S of F.seasons.sort((a, b) => a.year - b.year)) {
   const champD = ds.find(s => s.championshipWon) || ds.find(s => s.positionNumber === 1), champC = cs.find(s => s.championshipWon) || cs.find(s => s.positionNumber === 1);
   seasonsOut.push({ y, champD: champD ? champD.driverId : null, champC: champC ? champC.constructorId : null, decided: !!(champD && champD.championshipWon), races: seasonRaces,
     topD: ds.slice(0, 10).map(s => [s.driverId, round1(s.points), D[s.driverId] && D[s.driverId].seasons[y] ? D[s.driverId].seasons[y].wins : 0, mainCtor(s.driverId)]),
-    topC: cs.slice(0, 10).map(s => [s.constructorId, round1(s.points), C[s.constructorId] && C[s.constructorId].seasons[y] ? C[s.constructorId].seasons[y].wins : 0]) });
+    topC: cs.slice(0, 10).map(s => [s.constructorId, round1(s.points), C[s.constructorId] && C[s.constructorId].seasons[y] ? C[s.constructorId].seasons[y].wins : 0]),
+    /* classements complets (sélecteur d'année de la page Championnat) : [id, points, victoires, position, écurie principale] */
+    allD: ds.map(s => [s.driverId, round1(s.points), D[s.driverId] && D[s.driverId].seasons[y] ? D[s.driverId].seasons[y].wins : 0, s.positionNumber || null, mainCtor(s.driverId)]),
+    allC: cs.map(s => [s.constructorId, round1(s.points), C[s.constructorId] && C[s.constructorId].seasons[y] ? C[s.constructorId].seasons[y].wins : 0, s.positionNumber || null]) });
 }
 const pack = (obj, isDriver) => Object.values(obj).filter(x => x.gp > 0 || x.titles > 0).map(x => ({ ...x, seasons: Object.entries(x.seasons).sort((a, b) => +a[0] - +b[0]).map(([yy, s]) => isDriver ? [+yy, [...s.c], s.pos, round1(s.pts), s.wins, s.pod] : [+yy, s.pos, round1(s.pts), s.wins]) }));
 const years = seasonsOut.map(s => s.y);

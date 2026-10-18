@@ -1,0 +1,834 @@
+{
+ "MRData": {
+  "built": "2026-10-18",
+  "provisional": true,
+  "source": "Calendrier FIA/F1 2027 annoncé (24 GP, 10 sprints) ; horaires provisoires calqués sur 2026",
+  "RaceTable": {
+   "season": "2027",
+   "Races": [
+    {
+     "season": "2027",
+     "round": "1",
+     "raceName": "Bahrain Grand Prix",
+     "Circuit": {
+      "circuitId": "bahrain",
+      "circuitName": "Bahrain International Circuit",
+      "Location": {
+       "lat": "26.0325",
+       "long": "50.5106",
+       "locality": "Sakhir",
+       "country": "Bahrain"
+      }
+     },
+     "date": "2027-03-14",
+     "time": "15:00:00Z",
+     "provisional": true,
+     "note": "sous réserve",
+     "FirstPractice": {
+      "date": "2027-03-12",
+      "time": "11:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-03-12",
+      "time": "15:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-03-13",
+      "time": "12:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-03-13",
+      "time": "16:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "2",
+     "raceName": "Saudi Arabian Grand Prix",
+     "Circuit": {
+      "circuitId": "jeddah",
+      "circuitName": "Jeddah Corniche Circuit",
+      "Location": {
+       "lat": "21.6319",
+       "long": "39.1044",
+       "locality": "Jeddah",
+       "country": "Saudi Arabia"
+      }
+     },
+     "date": "2027-03-21",
+     "time": "17:00:00Z",
+     "provisional": true,
+     "note": "sous réserve",
+     "FirstPractice": {
+      "date": "2027-03-19",
+      "time": "13:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-03-19",
+      "time": "17:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-03-20",
+      "time": "13:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-03-20",
+      "time": "17:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "3",
+     "raceName": "Australian Grand Prix",
+     "Circuit": {
+      "circuitId": "albert_park",
+      "circuitName": "Albert Park Circuit",
+      "Location": {
+       "lat": "-37.849722",
+       "long": "144.968333",
+       "locality": "Melbourne",
+       "country": "Australia"
+      }
+     },
+     "date": "2027-04-04",
+     "time": "04:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-04-02",
+      "time": "01:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-04-02",
+      "time": "05:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-04-03",
+      "time": "01:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-04-03",
+      "time": "05:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "4",
+     "raceName": "Japanese Grand Prix",
+     "Circuit": {
+      "circuitId": "suzuka",
+      "circuitName": "Suzuka Circuit",
+      "Location": {
+       "lat": "34.843056",
+       "long": "136.540556",
+       "locality": "Suzuka",
+       "country": "Japan"
+      }
+     },
+     "date": "2027-04-11",
+     "time": "05:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-04-09",
+      "time": "02:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-04-09",
+      "time": "06:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-04-10",
+      "time": "02:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-04-10",
+      "time": "06:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "5",
+     "raceName": "Chinese Grand Prix",
+     "Circuit": {
+      "circuitId": "shanghai",
+      "circuitName": "Shanghai International Circuit",
+      "Location": {
+       "lat": "31.338889",
+       "long": "121.219722",
+       "locality": "Shanghai",
+       "country": "China"
+      }
+     },
+     "date": "2027-04-18",
+     "time": "07:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-04-16",
+      "time": "03:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-04-16",
+      "time": "07:30:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-04-17",
+      "time": "03:00:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-04-17",
+      "time": "07:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "6",
+     "raceName": "Miami Grand Prix",
+     "Circuit": {
+      "circuitId": "miami",
+      "circuitName": "Miami International Autodrome",
+      "Location": {
+       "lat": "25.958056",
+       "long": "-80.238889",
+       "locality": "Miami Gardens",
+       "country": "United States of America"
+      }
+     },
+     "date": "2027-05-02",
+     "time": "17:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-04-30",
+      "time": "16:00:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-04-30",
+      "time": "20:30:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-05-01",
+      "time": "16:00:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-05-01",
+      "time": "20:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "7",
+     "raceName": "Canadian Grand Prix",
+     "Circuit": {
+      "circuitId": "villeneuve",
+      "circuitName": "Circuit Gilles Villeneuve",
+      "Location": {
+       "lat": "45.500578",
+       "long": "-73.522461",
+       "locality": "Montreal",
+       "country": "Canada"
+      }
+     },
+     "date": "2027-05-23",
+     "time": "20:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-05-21",
+      "time": "16:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-05-21",
+      "time": "20:30:00Z"
+     },
+     "Sprint": {
+      "date": "2027-05-22",
+      "time": "16:00:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-05-22",
+      "time": "20:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "8",
+     "raceName": "Monaco Grand Prix",
+     "Circuit": {
+      "circuitId": "monaco",
+      "circuitName": "Circuit de Monaco",
+      "Location": {
+       "lat": "43.734722",
+       "long": "7.420556",
+       "locality": "Monte Carlo",
+       "country": "Monaco"
+      }
+     },
+     "date": "2027-06-06",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-06-04",
+      "time": "11:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-06-04",
+      "time": "15:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-06-05",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-06-05",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "9",
+     "raceName": "Portuguese Grand Prix",
+     "Circuit": {
+      "circuitId": "portimao",
+      "circuitName": "Autódromo Internacional do Algarve",
+      "Location": {
+       "lat": "37.2270",
+       "long": "-8.6267",
+       "locality": "Portimão",
+       "country": "Portugal"
+      }
+     },
+     "date": "2027-06-20",
+     "time": "14:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-06-18",
+      "time": "11:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-06-18",
+      "time": "15:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-06-19",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-06-19",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "10",
+     "raceName": "British Grand Prix",
+     "Circuit": {
+      "circuitId": "silverstone",
+      "circuitName": "Silverstone Circuit",
+      "Location": {
+       "lat": "52.078611",
+       "long": "-1.016944",
+       "locality": "Silverstone",
+       "country": "United Kingdom"
+      }
+     },
+     "date": "2027-07-04",
+     "time": "14:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-07-02",
+      "time": "11:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-07-02",
+      "time": "15:30:00Z"
+     },
+     "Sprint": {
+      "date": "2027-07-03",
+      "time": "11:00:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-07-03",
+      "time": "15:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "11",
+     "raceName": "Austrian Grand Prix",
+     "Circuit": {
+      "circuitId": "red_bull_ring",
+      "circuitName": "Red Bull Ring",
+      "Location": {
+       "lat": "47.219722",
+       "long": "14.764722",
+       "locality": "Spielberg",
+       "country": "Austria"
+      }
+     },
+     "date": "2027-07-11",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-07-09",
+      "time": "11:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-07-09",
+      "time": "15:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-07-10",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-07-10",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "12",
+     "raceName": "Belgian Grand Prix",
+     "Circuit": {
+      "circuitId": "spa",
+      "circuitName": "Circuit de Spa-Francorchamps",
+      "Location": {
+       "lat": "50.437222",
+       "long": "5.971389",
+       "locality": "Spa",
+       "country": "Belgium"
+      }
+     },
+     "date": "2027-07-25",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-07-23",
+      "time": "11:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-07-23",
+      "time": "15:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-07-24",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-07-24",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "13",
+     "raceName": "Hungarian Grand Prix",
+     "Circuit": {
+      "circuitId": "hungaroring",
+      "circuitName": "Hungaroring",
+      "Location": {
+       "lat": "47.582222",
+       "long": "19.251111",
+       "locality": "Budapest",
+       "country": "Hungary"
+      }
+     },
+     "date": "2027-08-01",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-07-30",
+      "time": "11:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-07-30",
+      "time": "15:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-07-31",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-07-31",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "14",
+     "raceName": "Italian Grand Prix",
+     "Circuit": {
+      "circuitId": "monza",
+      "circuitName": "Autodromo Nazionale Monza",
+      "Location": {
+       "lat": "45.620556",
+       "long": "9.289444",
+       "locality": "Monza",
+       "country": "Italy"
+      }
+     },
+     "date": "2027-09-05",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-09-03",
+      "time": "10:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-09-03",
+      "time": "14:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-09-04",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-09-04",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "15",
+     "raceName": "Spanish Grand Prix",
+     "Circuit": {
+      "circuitId": "madring",
+      "circuitName": "Circuito de Madring",
+      "Location": {
+       "lat": "40.465278",
+       "long": "-3.615278",
+       "locality": "Madrid",
+       "country": "Spain"
+      }
+     },
+     "date": "2027-09-12",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-09-10",
+      "time": "11:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-09-10",
+      "time": "15:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-09-11",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-09-11",
+      "time": "14:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "16",
+     "raceName": "Azerbaijan Grand Prix",
+     "Circuit": {
+      "circuitId": "baku",
+      "circuitName": "Baku City Circuit",
+      "Location": {
+       "lat": "40.3725",
+       "long": "49.853333",
+       "locality": "Baku",
+       "country": "Azerbaijan"
+      }
+     },
+     "date": "2027-09-26",
+     "time": "11:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-09-24",
+      "time": "08:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-09-24",
+      "time": "12:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-09-25",
+      "time": "08:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-09-25",
+      "time": "12:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "17",
+     "raceName": "Turkish Grand Prix",
+     "Circuit": {
+      "circuitId": "istanbul",
+      "circuitName": "Intercity Istanbul Park",
+      "Location": {
+       "lat": "40.9517",
+       "long": "29.4050",
+       "locality": "Istanbul",
+       "country": "Turkey"
+      }
+     },
+     "date": "2027-10-03",
+     "time": "12:00:00Z",
+     "provisional": true,
+     "note": "sous réserve d’homologation du circuit",
+     "FirstPractice": {
+      "date": "2027-10-01",
+      "time": "09:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-10-01",
+      "time": "13:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-10-02",
+      "time": "08:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-10-02",
+      "time": "12:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "18",
+     "raceName": "Singapore Grand Prix",
+     "Circuit": {
+      "circuitId": "marina_bay",
+      "circuitName": "Marina Bay Street Circuit",
+      "Location": {
+       "lat": "1.291531",
+       "long": "103.86385",
+       "locality": "Singapore",
+       "country": "Singapore"
+      }
+     },
+     "date": "2027-10-10",
+     "time": "12:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-10-08",
+      "time": "08:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-10-08",
+      "time": "12:30:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-10-09",
+      "time": "09:00:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-10-09",
+      "time": "13:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "19",
+     "raceName": "United States Grand Prix",
+     "Circuit": {
+      "circuitId": "americas",
+      "circuitName": "Circuit of the Americas",
+      "Location": {
+       "lat": "30.132778",
+       "long": "-97.641111",
+       "locality": "Austin",
+       "country": "United States of America"
+      }
+     },
+     "date": "2027-10-24",
+     "time": "20:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-10-22",
+      "time": "17:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-10-22",
+      "time": "21:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-10-23",
+      "time": "17:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-10-23",
+      "time": "21:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "20",
+     "raceName": "Mexico City Grand Prix",
+     "Circuit": {
+      "circuitId": "rodriguez",
+      "circuitName": "Autódromo Hermanos Rodríguez",
+      "Location": {
+       "lat": "19.404197",
+       "long": "-99.088747",
+       "locality": "Mexico City",
+       "country": "Mexico"
+      }
+     },
+     "date": "2027-10-31",
+     "time": "20:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-10-29",
+      "time": "18:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-10-29",
+      "time": "22:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-10-30",
+      "time": "17:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-10-30",
+      "time": "21:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "21",
+     "raceName": "São Paulo Grand Prix",
+     "Circuit": {
+      "circuitId": "interlagos",
+      "circuitName": "Autódromo José Carlos Pace",
+      "Location": {
+       "lat": "-23.701111",
+       "long": "-46.697222",
+       "locality": "São Paulo",
+       "country": "Brazil"
+      }
+     },
+     "date": "2027-11-07",
+     "time": "17:00:00Z",
+     "provisional": true,
+     "FirstPractice": {
+      "date": "2027-11-05",
+      "time": "15:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-11-05",
+      "time": "19:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-11-06",
+      "time": "14:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-11-06",
+      "time": "18:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "22",
+     "raceName": "Las Vegas Grand Prix",
+     "Circuit": {
+      "circuitId": "vegas",
+      "circuitName": "Las Vegas Street Circuit",
+      "Location": {
+       "lat": "36.175",
+       "long": "-115.136389",
+       "locality": "Las Vegas",
+       "country": "United States of America"
+      }
+     },
+     "date": "2027-11-20",
+     "time": "04:00:00Z",
+     "provisional": true,
+     "note": "course le samedi",
+     "FirstPractice": {
+      "date": "2027-11-18",
+      "time": "00:30:00Z"
+     },
+     "SecondPractice": {
+      "date": "2027-11-18",
+      "time": "04:00:00Z"
+     },
+     "ThirdPractice": {
+      "date": "2027-11-19",
+      "time": "00:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-11-19",
+      "time": "04:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "23",
+     "raceName": "Qatar Grand Prix",
+     "Circuit": {
+      "circuitId": "losail",
+      "circuitName": "Lusail International Circuit",
+      "Location": {
+       "lat": "25.49",
+       "long": "51.454167",
+       "locality": "Lusail",
+       "country": "Qatar"
+      }
+     },
+     "date": "2027-12-05",
+     "time": "16:00:00Z",
+     "provisional": true,
+     "note": "sous réserve",
+     "FirstPractice": {
+      "date": "2027-12-03",
+      "time": "13:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-12-03",
+      "time": "17:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-12-04",
+      "time": "14:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-12-04",
+      "time": "18:00:00Z"
+     }
+    },
+    {
+     "season": "2027",
+     "round": "24",
+     "raceName": "Abu Dhabi Grand Prix",
+     "Circuit": {
+      "circuitId": "yas_marina",
+      "circuitName": "Yas Marina Circuit",
+      "Location": {
+       "lat": "24.467222",
+       "long": "54.603056",
+       "locality": "Abu Dhabi",
+       "country": "United Arab Emirates"
+      }
+     },
+     "date": "2027-12-12",
+     "time": "13:00:00Z",
+     "provisional": true,
+     "note": "sous réserve",
+     "FirstPractice": {
+      "date": "2027-12-10",
+      "time": "09:30:00Z"
+     },
+     "SprintQualifying": {
+      "date": "2027-12-10",
+      "time": "13:00:00Z"
+     },
+     "Sprint": {
+      "date": "2027-12-11",
+      "time": "10:30:00Z"
+     },
+     "Qualifying": {
+      "date": "2027-12-11",
+      "time": "14:00:00Z"
+     }
+    }
+   ]
+  }
+ }
+}
